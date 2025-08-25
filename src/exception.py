@@ -33,10 +33,11 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
-
+'''
 # Example usage
 if __name__ == "__main__":
     try:
         a = 1 / 0   # Will raise ZeroDivisionError
     except Exception as e:
         raise CustomException(e, sys)
+'''
